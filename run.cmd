@@ -12,5 +12,5 @@ CALL build.cmd || PAUSE
 
 CD ..\asia-warden-web-preview
 
-XCOPY ..\asia-warden-web\dist dist /E /I /Y
-COPY ..\asia-warden-web\index.html index.html
+XCOPY ..\asia-warden-web\dist\assets assets /E /I /Y
+COPY ..\asia-warden-web\dist\index.html index.html

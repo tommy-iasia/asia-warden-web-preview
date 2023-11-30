@@ -8,7 +8,7 @@ IF EXIST index.html (
 
 CD ..\asia-warden-web
 
-SET BASE_URL=/asia-warden-web-preview
+SET VITE_BASENAME=/asia-warden-web-preview
 CALL build.cmd || PAUSE
 
 CD ..\asia-warden-web-preview
